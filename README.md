@@ -12,9 +12,10 @@ Unfortunately, I cannot share the dataset for this code. However, its general st
 The code also had some parts for analyzing the data and also some preparation that I removed those parts.
 
 The proposed method can use any contextualized language model which can process two separated sentences at once, e.g., BERT, RoBERTa, XLNet .... .
-In this code, I only used RoBERTa and Lonformer. 
-Longformer is used since the dataset contained long sequences which RoBERTa was not able to process unless we truncate them. 
+In this code, I only used RoBERTa and XLMRoBERTa.  
 
 The general architecture is like this :
 
 ![Alt text](archi.png?raw=true "Title")
+
+The further analysis such as model comparison and prediction bias analysis will be added here....
